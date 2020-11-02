@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 首先来解析 namespace: 命名空间,此属性通常用来映射Dao（Mapper）层接口. -->
+<mapper namespace="com.xxxx.mapper.UserMapper">
+    <!-- id: 对应Dao（Mapper）层接口方法名 parameterType：指定输入参数类型 -->
+    <!-- useGeneratedKeys="true"把新增加的主键赋值到自己定义的keyProperty（id）中 -->
+    <select id="queryUserByName" parameterType="String" resultType="com.xxxx.entity.User">
+		select * from tb_user where userName = #{userName}
+
+    </select>
+
+    <insert id="insertinfo" parameterType="com.xxxx.entity.User">
+    INSERT INTO tb_user(userName,userPwd,realName,email,address)
+    VALUES(#{userName},#{userPwd},#{realName},#{email},#{address})
+    </insert>
+
+    <select id="selectAll" parameterType="String" resultType="com.xxxx.entity.User">
+        select * from tb_user WHERE userName LIKE #{userName} AND realName LIKE #{realName}
+        AND email LIKE #{email} AND address LIKE #{address}
+    </select>
+    <delete id="dell" parameterType="int">
+        DELETE from tb_user WHERE userId = #{item}
+    </delete>
+</mapper>

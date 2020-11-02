@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100%;width: 100%;margin:0;padding:0;
+    text-align: center;
+    background-image: url("../ImgSource/wallhaven-g8oe1l.jpg");
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+    position:absolute;
+
+
+
+}
+.titlepage{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+.tel{
+    background-color: #8BCC32;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tel:hover{
+    cursor:hand;
+}
+
+
+#validationCode_img:hover{
+    cursor:hand;
+}
+
+#validationCode
+{
+    width: 173px;
+    height: 20px;
+    margin: 0;
+    background-color: transparent;
+}
+#uname{
+    height: 19px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Microsoft YaHei UI Light";
+    background-color: transparent;
+}
+.img_uname{
+    display: inline-block;
+}
+#div_uname{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    padding: 0;
+}
+#upwd{
+    height: 19px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Microsoft YaHei UI Light";
+    background-color: transparent;
+}
+.img_pwd{
+    display: inline-block;
+}
+#div_upwd{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    padding: 0;
+}
+#validationCode{
+    height: 19px;
+    width: 90px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Microsoft YaHei UI Light";
+}
+.img_validationCode{
+    display: inline-block;
+}
+#div_validationCode{
+    width: 140px;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    padding: 0;
+    display: inline-block;
+}
+#div_validationCode_img{
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    left:150px;
+    top: -61px;
+}
+#sign_in{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: left;
+    display: none;
+}
+.sin{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    padding: 0;
+}
+.sign_content{
+    height: 19px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Microsoft YaHei UI Light";
+    background-color: transparent;
+}
+.img_logo{
+    display: inline-block;
+}
+#city_1{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    padding: 0;
+
+}
+.prov{
+    background: transparent;
+    width: 50px;
+    height: 30px;
+    border: none;
+}
+.city{
+    background: transparent;
+    width: 50px;
+    height: 30px;
+    border: none;
+}
+.btn_signin{
+    background-color: #8BCC32;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn_signin:hover{
+    cursor:hand;
+}
+
+

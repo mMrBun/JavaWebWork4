@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#usr
+{
+    width: 100%;
+    text-align: right;
+
+}
+#usr p{
+display: inline-block;
+    font-size: 25px;
+}
+#usr a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+#logo
+{
+    width: 400px;
+    height: 96px;
+    margin-left: 5%;
+
+    display: inline-block;
+}
+#nav{
+   float: right;
+    height: 100px;
+
+}
+#nav ul{
+    margin-top: 20px;
+}
+#nav li{
+    display: inline-block;
+
+}
+#nav a{
+    display:block;
+    width:200px;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+#else {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+
+}
+.var1{
+    width: 70%;
+    height:100px ;
+    border: 1px solid gray;
+    margin:100px auto 0 ;
+}
+.var1 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#file1_Download{
+    background: transparent;
+    border: 1px solid #79D7A9;
+    color: #79D7A9;
+    width: 150px;
+    height: 40px;
+    float: right;
+    position: relative;
+    left: -20px;
+    top: -85px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#page .var2{
+    width: 70%;
+    height:100px ;
+    border: 1px solid gray;
+    margin:100px auto;
+}
+.var2 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#file2_Download{
+    background: transparent;
+    border: 1px solid #79D7A9;
+    color: #79D7A9;
+    width: 150px;
+    height: 40px;
+    float: right;
+    position: relative;
+    left: -20px;
+    top: -95px;
+    font-size: 25px;
+    font-weight: 900;
+}
+#page .var3{
+    width: 70%;
+    height:100px ;
+    border: 1px solid gray;
+    margin:100px auto;
+}
+.var3 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#file3_Download{
+    background: transparent;
+    border: 1px solid #79D7A9;
+    color: #79D7A9;
+    width: 150px;
+    height: 40px;
+    float: right;
+    position: relative;
+    left: -20px;
+    top: -85px;
+    font-size: 25px;
+    font-weight: 900;
+}
+#tb_list{
+    width: 60%;
+    height: 40%;
+    margin:auto;
+    background-color: red;
+}
+#tb_title{
+    width: 100%;
+    height: 20%;
+    background-color: #79D7A9;
+    display: inline-block;
+}
+#tb_content{
+    width: 100%;
+    height: 80%;
+    background-color: antiquewhite;
+}
+.in_txt {
+    height: 30px;
+}
+.fm{
+   display: inline-block;
+}
+
+
